@@ -1,6 +1,6 @@
 import streamlit as st
 from datetime import datetime, time, timezone
-from trader_companion_app.core.firestore_utils import init_firestore_client, add_trade_entry
+from core.firestore_utils import init_firestore_client, add_trade_entry
 
 st.set_page_config(page_title="Journal", page_icon="✍️")
 

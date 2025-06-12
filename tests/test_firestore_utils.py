@@ -29,7 +29,7 @@ Timestamp = DummyTimestamp
 
 
 # Import the functions to be tested
-from trader_companion_app.core.firestore_utils import (
+from core.firestore_utils import (
     init_firestore_client,
     add_trade_entry,
     get_trade_entries
