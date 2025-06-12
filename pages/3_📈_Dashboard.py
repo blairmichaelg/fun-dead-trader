@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import timezone
-from ..core.firestore_utils import init_firestore_client, get_trade_entries
+from trader_companion_app.core.firestore_utils import init_firestore_client, get_trade_entries
 
 st.set_page_config(page_title="Dashboard", page_icon="📈")
 
